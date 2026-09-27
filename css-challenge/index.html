@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wavelength — CSS Challenge (Flexbox, Grid &amp; Animation)</title>
+  <meta name="description" content="Wavelength: a fictional indie podcast platform used to showcase Flexbox, CSS Grid and animation in a neo-brutalist visual style.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span class="brand-word">WAVELENGTH</span>
+      </a>
+
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav class="site-nav" id="navMenu" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#shows">Shows</a></li>
+          <li><a href="#episodes">Episodes</a></li>
+        </ul>
+        <a class="btn btn--press btn--sm" href="#listen">Start listening</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Indie audio, unfiltered</p>
+          <h1 class="hero-title">Podcasts that<br><mark class="hl">sound like</mark><br>real people.</h1>
+          <p class="hero-lede">No polish, no filler. Wavelength is where independent hosts publish the conversations big platforms round the edges off.</p>
+          <div class="hero-actions">
+            <a class="btn btn--press btn--primary" href="#episodes">Browse episodes</a>
+            <a class="btn btn--outline" href="#shows">How it works</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="ep-stack">
+            <span class="ep-stack__card ep-stack__card--1"></span>
+            <span class="ep-stack__card ep-stack__card--2"></span>
+            <span class="ep-stack__card ep-stack__card--3">
+              <span class="ep-stack__play">▶</span>
+            </span>
+          </div>
+          <div class="now-playing">
+            <span class="now-playing__label">Now playing</span>
+            <div class="now-playing__bars">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FLEXBOX CHALLENGE ============ -->
+    <section class="features" id="shows">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">01 / Why creators pick us</p>
+          <h2 class="section-title">Built for hosts, not algorithms.</h2>
+        </div>
+
+        <div class="feature-row">
+          <article class="feature-card feature-card--coral">
+            <span class="feature-card__num">01</span>
+            <h3 class="feature-card__title">Raw &amp; unedited</h3>
+            <p class="feature-card__desc">Publish the take you actually recorded — no forced re-cuts, no algorithmic pacing rules.</p>
+            <span class="feature-card__tag">MIC ON</span>
+          </article>
+
+          <article class="feature-card feature-card--violet">
+            <span class="feature-card__num">02</span>
+            <h3 class="feature-card__title">Real audience data</h3>
+            <p class="feature-card__desc">Listener numbers you can actually read, without a dashboard full of vanity metrics.</p>
+            <span class="feature-card__tag">100% YOURS</span>
+          </article>
+
+          <article class="feature-card feature-card--mint">
+            <span class="feature-card__num">03</span>
+            <h3 class="feature-card__title">Fair by default</h3>
+            <p class="feature-card__desc">A flat, transparent split on every listen — paid out monthly, no hidden platform cut.</p>
+            <span class="feature-card__tag">NO CUT</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GRID CHALLENGE ============ -->
+    <section class="episodes" id="episodes">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">02 / On the platform now</p>
+          <h2 class="section-title">Six shows worth your commute.</h2>
+        </div>
+
+        <ul class="episode-grid">
+          <li class="ep-card ep-card--lg ep-card--coral">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Interview · 48 min</span>
+            <span class="ep-card__title">The Long Way Round</span>
+          </li>
+          <li class="ep-card ep-card--lg ep-card--violet">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Solo · 22 min</span>
+            <span class="ep-card__title">Late Night Signal</span>
+          </li>
+          <li class="ep-card ep-card--mint">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Panel · 61 min</span>
+            <span class="ep-card__title">Off Script</span>
+          </li>
+          <li class="ep-card ep-card--ink">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Interview · 35 min</span>
+            <span class="ep-card__title">Static &amp; Noise</span>
+          </li>
+          <li class="ep-card ep-card--coral">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Solo · 18 min</span>
+            <span class="ep-card__title">Low Frequency</span>
+          </li>
+          <li class="ep-card ep-card--wide ep-card--violet">
+            <span class="ep-card__cover" aria-hidden="true"><span class="ep-card__play">▶</span></span>
+            <span class="ep-card__meta">Live recording · 74 min</span>
+            <span class="ep-card__title">The Wavelength Sessions, Vol. 3</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ STAT BAND / TRANSITION ============ -->
+    <section class="stat-band">
+      <div class="container stat-band__inner">
+        <p class="section-label section-label--on-ink">03 / The short version</p>
+        <p class="stat-band__statement">Real hosts. Real listeners.<br>No middle layer of noise.</p>
+        <div class="stat-band__numbers">
+          <div class="stat-band__stat">
+            <span class="stat-band__value">1,240+</span>
+            <span class="stat-band__label">Independent shows</span>
+          </div>
+          <div class="stat-band__stat">
+            <span class="stat-band__value">92%</span>
+            <span class="stat-band__label">Revenue to hosts</span>
+          </div>
+          <div class="stat-band__stat">
+            <span class="stat-band__value">4.9m</span>
+            <span class="stat-band__label">Monthly listens</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANIMATION CHALLENGE ============ -->
+    <section class="cta-band" id="listen">
+      <div class="container cta-band__row">
+        <div>
+          <p class="section-label">04 / Get started</p>
+          <h2 class="section-title">Ready to hit play?</h2>
+        </div>
+        <button type="button" class="btn btn--press btn--primary btn--lg" id="animationBtn">
+          <span class="btn__play" aria-hidden="true">▶</span>
+          <span>Start listening</span>
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__row">
+      <span class="site-footer__word">WAVELENGTH</span>
+      <p class="site-footer__note">A fictional podcast platform, built to demonstrate frontend fundamentals.</p>
+      <nav aria-label="Footer">
+        <ul class="site-footer__list">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#shows">Shows</a></li>
+          <li><a href="#episodes">Episodes</a></li>
+        </ul>
+      </nav>
+      <span class="site-footer__copy">© 2026 Wavelength</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
