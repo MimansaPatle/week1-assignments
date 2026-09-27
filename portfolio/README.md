@@ -115,10 +115,6 @@ Then visit `http://localhost:8000`.
 
 Live Demo:https://mimansapatle-portfolio-website.vercel.app/
 
-## Screenshots
-
-Screenshots will be added to the repository after final browser and deployment verification.
-
 ## Credits
 
 - Fonts: [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) and [Manrope](https://fonts.google.com/specimen/Manrope), both licensed under the SIL Open Font License 1.1.
