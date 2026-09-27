@@ -125,10 +125,6 @@ Opening `index.html` directly in a browser also works.
 
 Live website: https://wave-elength-css-challenge.vercel.app/
 
-## Screenshots
-
-Screenshots for this project have not been generated yet.
-
 ## A Note on the Build Process
 
 This design went through a few full visual iterations before settling here — an initial pass used a bright yellow/lime accent, which was dropped in favour of the current mint for a more considered palette, and the page-wide container width was widened after the first pass left too much empty space on very wide screens. Two real bugs were caught and fixed along the way: a stray inline `style` attribute (replaced with proper CSS classes) and a tablet-width layout where one grid tile was left stranded next to an empty cell (fixed by re-mapping that tile's column span at that breakpoint).
