@@ -121,6 +121,10 @@ http://localhost:8000
 
 Opening `index.html` directly in a browser also works.
 
+## Live Website
+
+Live website: https://wave-elength-css-challenge.vercel.app/
+
 ## Screenshots
 
 Screenshots for this project have not been generated yet.
