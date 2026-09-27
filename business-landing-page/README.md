@@ -118,7 +118,7 @@ Opening `index.html` directly in a browser also works.
 
 ## Live Website
 
-Live website: [To be added after deployment.](https://tulip-and-twine.vercel.app/)
+Live website: (https://tulip-and-twine.vercel.app/)
 
 ## Screenshots
 
