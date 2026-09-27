@@ -118,7 +118,7 @@ Opening `index.html` directly in a browser also works.
 
 ## Live Website
 
-Live website: To be added after deployment.
+Live website: [To be added after deployment.](https://tulip-and-twine.vercel.app/)
 
 ## Screenshots
 
@@ -126,10 +126,10 @@ To be added.
 
 ## Author
 
-Tirth Vaghela
+Mimansa Patle
 
-- GitHub: https://github.com/Tirthvaghela
-- LinkedIn: https://www.linkedin.com/in/tirthvaghela/
+- GitHub: https://github.com/Mimansapatle
+- LinkedIn: https://www.linkedin.com/in/mimansa-patle-b489a6309/
 
 ## Project Note
 
